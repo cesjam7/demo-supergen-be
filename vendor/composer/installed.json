@@ -1,0 +1,44 @@
+[
+    {
+        "name": "greenter/xmldsig",
+        "version": "v5.0.3",
+        "version_normalized": "5.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thegreenter/xmldsig.git",
+            "reference": "98df1580228cff6c5f02a451ac162d00d384848e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thegreenter/xmldsig/zipball/98df1580228cff6c5f02a451ac162d00d384848e",
+            "reference": "98df1580228cff6c5f02a451ac162d00d384848e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-openssl": "*",
+            "php": ">=5.5.9"
+        },
+        "time": "2020-07-31T04:45:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Greenter\\XMLSecLibs\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "description": "Libreria para firmar XML según normativa de SUNAT en Facturación Electrónica",
+        "homepage": "https://github.com/thegreenter/xmldsig",
+        "keywords": [
+            "security",
+            "signature",
+            "sunat",
+            "xml",
+            "xmldsig"
+        ]
+    }
+]

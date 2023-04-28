@@ -1,0 +1,5 @@
+{
+    "require": {
+        "greenter/xmldsig": "^5.0"
+    }
+}
