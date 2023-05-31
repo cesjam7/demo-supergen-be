@@ -125,6 +125,16 @@ if (hostname == "SERVIDOR") {
         multipleStatements: true
     }
 }
+if (hostname == "Jair_Wilmer") {
+    conexion = {
+        host: '127.0.0.1',
+        port: 3006,
+        user: 'root',
+        password: '',
+        database: 'supergen',
+        multipleStatements: true
+    }
+}
 var connection = mysql.createPool(conexion);
 connection.query = promisify(connection.query)
 module.exports = connection;
