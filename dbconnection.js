@@ -128,7 +128,7 @@ if (hostname == "SERVIDOR") {
 if (hostname == "Jair_Wilmer") {
     conexion = {
         host: '127.0.0.1',
-        port: 3006,
+        port: 3306,
         user: 'root',
         password: '',
         database: 'supergen',
