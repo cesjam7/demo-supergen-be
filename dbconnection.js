@@ -115,22 +115,22 @@ if (hostname == "Antony") {
         multipleStatements: true
     }
 }
-if (hostname == "SERVIDOR") {
-    conexion = {
-        host: '159.65.47.181',
-        port: 3306,
-        user: 'Developer1',
-        password: 'Pa$$w0rd',
-        database: 'supergen',
-        multipleStatements: true
-    }
-}
 if (hostname == "Jair_Wilmer") {
     conexion = {
         host: '127.0.0.1',
         port: 3306,
         user: 'root',
         password: '',
+        database: 'supergen',
+        multipleStatements: true
+    }
+}
+if (hostname == "SERVIDOR") {
+    conexion = {
+        host: '159.65.47.181',
+        port: 3306,
+        user: 'Developer1',
+        password: 'Pa$$w0rd',
         database: 'supergen',
         multipleStatements: true
     }
